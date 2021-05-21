@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.test.orangeHrms.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.691 sec <<< FAILURE!
+Check ForGot Password Functionality(Login Page Functionality)  Time elapsed: 11.925 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at StepDefinationsForOrangeHrms.LoginPage.user_should_get_the_message(LoginPage.java:108)
+	at ?.User should get the message "Please contact"(file:///C:/Users/ARKA-PC/New%20Workspace/OrangeHrmsTest/FeatureFiles/login.feature:23)
+

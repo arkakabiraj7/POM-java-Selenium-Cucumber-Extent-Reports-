@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19628" started-at="2021-05-13T10:29:09Z" finished-at="2021-05-13T10:29:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.orangeHrms.TestRunner@52a86356]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19628" started-at="2021-05-13T10:29:09Z" finished-at="2021-05-13T10:29:28Z">
+      <class name="com.test.orangeHrms.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.test.orangeHrms.TestRunner@52a86356]" name="setUpClass" is-config="true" duration-ms="824" started-at="2021-05-13T10:29:09Z" finished-at="2021-05-13T10:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.orangeHrms.TestRunner@52a86356]" name="runScenario" duration-ms="18715" started-at="2021-05-13T10:29:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T10:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Login Functionlity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.test.orangeHrms.TestRunner@52a86356]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2021-05-13T10:29:28Z" finished-at="2021-05-13T10:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test.orangeHrms.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

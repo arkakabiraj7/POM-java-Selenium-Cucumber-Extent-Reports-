@@ -1,0 +1,328 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User goes through Successfully Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11016000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "When user in present in  login page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.when_user_in_present_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5158000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter credentials the credentials",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.enter_credentials_the_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to  navigate to home page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.user_should_be_able_to_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-21T07:32:12.319Z",
+        "line": 11,
+        "name": "Check the Admin Button",
+        "description": "",
+        "id": "check-all-the-functionality-of-home-page;check-the-admin-button",
+        "after": [
+          {
+            "result": {
+              "duration": 865000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "when user is on homepage",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.when_user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Admin Button",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.click_on_admin_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check all the functionality of home Page",
+    "description": "",
+    "id": "check-all-the-functionality-of-home-page",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-21T07:32:29.600Z",
+        "line": 4,
+        "name": "Check Login Functionlity",
+        "description": "",
+        "id": "login-page-functionality;check-login-functionlity",
+        "after": [
+          {
+            "result": {
+              "duration": 1907000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9182000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "When user in on login page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.when_user_in_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4863000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter credentials",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.enter_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should navigate to home page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.user_should_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-21T07:32:45.654Z",
+        "line": 15,
+        "name": "Check ForGot Password Functionality",
+        "description": "",
+        "id": "login-page-functionality;check-forgot-password-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 828000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.HomePage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9014000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "When user is on login page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.when_user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1326000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on forgotpassword link",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.user_clicks_on_forgotpassword_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should navigate to forgot password page",
+            "match": {
+              "location": "StepDefinationsForOrangeHrms.LoginPage.user_should_navigate_to_forgot_password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 986000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter \"admin\" and  clicks on Reset password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinationsForOrangeHrms.LoginPage.user_enter_and_clicks_on_reset_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:174)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:181)\r\n\tat StepDefinationsForOrangeHrms.LoginPage.user_should_get_the_message(LoginPage.java:108)\r\n\tat ✽.User should get the message \"Please contact\"(file:///C:/Users/ARKA-PC/New%20Workspace/OrangeHrmsTest/FeatureFiles/login.feature:21)\r\n",
+              "duration": 19000000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User should get the message \"Please contact\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please contact\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinationsForOrangeHrms.LoginPage.user_should_get_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotpasswordCheck"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Functionality",
+    "description": "",
+    "id": "login-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/login.feature",
+    "tags": []
+  }
+]
